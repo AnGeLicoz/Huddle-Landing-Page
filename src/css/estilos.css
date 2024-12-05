@@ -1,0 +1,97 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    background: var(--indigo) url(../images/bg-desktop.svg) no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+}
+
+.cabecalho .logo {
+    width: 22rem;
+    margin-top: 5rem;
+    margin-left: 7rem;
+}
+main {
+    margin: 8.5rem 5rem 1rem 7rem;
+    display: flex;
+}
+
+main .ilustracao {
+    width: 50vw;
+}
+
+main .descricao {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.8rem;
+    margin-left: 5rem;
+}
+
+main .descricao .titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.2rem;
+    font-weight: 600;
+    color: white;
+}
+
+main .descricao .texto {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    color: rgb(230, 230, 230);
+    margin-top: 1.8rem;
+}
+
+main .descricao .registrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: white;
+    color: var(--indigo);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    border-radius: 3rem;
+    width: 22rem;
+    height: 6rem;
+    margin-top: 2.3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+main .descricao .registrar:hover {
+    color: white;
+    background-color: var(--rosa);
+    transition: ease-in-out 0.2s;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 6vw;
+}
+
+.redes-sociais a {
+    border: solid white 0.1rem;
+    padding: 1rem;
+    border-radius: 100rem;
+    margin: 0.7rem;
+    
+}
+
+.redes-sociais i {
+    font-size: 1.9rem;
+    color: white;
+}
+
+.redes-sociais a:hover {
+    border: solid 0.1rem var(--rosa);
+    transition: ease-in-out 0.1s;
+}
+
+.redes-sociais a:hover > i {
+    color: var(--rosa);
+    transition: ease-in-out 0.1s;
+}
