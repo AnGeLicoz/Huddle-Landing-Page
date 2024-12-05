@@ -1,5 +1,5 @@
 # Huddle Landing Page
-"FrontEnd Mentor Challenge" & "Quest HTML e CSS Avançado" do DevQuest
+"FrontEnd Mentor" Challenge & "Quest HTML e CSS Avançado" do DevQuest
 
 
 ## Visão Geral
