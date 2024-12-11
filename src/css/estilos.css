@@ -3,11 +3,10 @@ html {
 }
 
 body {
-    max-width: 1440px;
     margin: 0 auto;
     max-height: 100vh;
-    background: var(--indigo) url(../images/bg-desktop.svg) no-repeat;
-    background-size: 100vw 100vh;
+    background: var(--indigo) url(../images/bg-desktop.svg) center center no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
 }
@@ -64,10 +63,10 @@ main .descricao .registrar {
     background-color: white;
     color: var(--indigo);
     font-family: 'Open Sans', sans-serif;
-    font-size: 2rem;
-    border-radius: 3rem;
-    width: 22rem;
-    height: 6rem;
+    font-size: 1.5vw;
+    border-radius: 4vw;
+    width: 15vw;
+    height: 7vh;
     margin-top: 4vh;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
