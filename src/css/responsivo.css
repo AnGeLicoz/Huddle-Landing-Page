@@ -1,21 +1,18 @@
-@media (max-width:1400px) {
-    body {
-        background-size: cover;
-    }
-}
-
-@media (max-width: 750px) {
+@media (max-width: 850px) {
 
     body {
         width: 100vw;
-        height: 98vh;
-        background: var(--indigo) url(../images/bg-mobile.svg) top no-repeat;
+        height: 100vh;
+        background: var(--indigo) url(../images/bg-mobile.svg) no-repeat;
         background-size: 100vw;
     }
 
     .cabecalho {
-        margin-top: 1.2vh;
-        margin-left: 2.5vw;
+        margin-top: 4vh;
+    }
+
+    .cabecalho .logo {
+        width: 40vw;
     }
 
     main {
@@ -23,12 +20,14 @@
         justify-content: center;
         align-items: center;
         margin: 0;
+        margin: 0 6vw;
     }
 
     main .descricao {
         align-items: center;
         justify-content: center;
-        margin-right: 7vw;
+        margin-right: 3vw;
+        margin-top: 0;
     }
 
     main .ilustracao {
@@ -37,25 +36,25 @@
     }
 
     main .descricao .titulo {
-        font-size: 4.5rem;
+        font-size: 6.5vw;
         text-align: center;
         margin-top: 5vh;
     }
 
     main .descricao .texto {
         text-align: center;
-        font-size: 3.5rem;
+        font-size: 4.6vw;
         font-weight: 400;
         color: white;
-        margin-top: 1.8vh;
+        margin-top: 1.7vh;
     }
 
     main .descricao .registrar {
-        width: 50vw;
-        height: 5vh;
+        width: 70vw;
+        height: 6vh;
         border-radius: 10rem;
-        margin-top: 6rem;
-        font-size: 2.5rem;
+        margin-top: 4vh;
+        font-size: 4.3vw;
     }
 
     .redes-sociais {
@@ -63,14 +62,23 @@
         display: flex;
         justify-content: center;
         align-content: space-between;
-        margin-top: 7vh;
+        margin-top: 4vh;
     }
 
-    .redes-sociais a {
-        padding: 1.2rem;
+    .redes-sociais li {
+        padding: 1.2vw;
     }
 
     .redes-sociais i {
-        font-size: 2.5rem;
+        padding: 1.5vw;
+        color: white;
+        font-size: 2.4vw;
+        border: solid white 0.1rem;
+        border-radius: 100%;
+    }
+
+    .redes-sociais li:first-child > a i {
+        width: 6vw;
+        text-align: center;
     }
 }
